@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" class="lang-en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luthfiano Alzaky — Statistics & Data Science</title>
+  <meta name="description" content="Portfolio of Luthfiano Alzaky — Statistics & Data Science student at IPB University. Data analysis, credit risk modelling, forecasting, machine learning, and BI dashboards." />
+  <meta name="author" content="Luthfiano Alzaky" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Luthfiano Alzaky — Statistics & Data Science" />
+  <meta property="og:description" content="Turning raw data into clear, actionable insights — credit risk scoring, forecasting, market research, and dashboards." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/profile.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__logo" aria-label="Luthfiano Alzaky home">
+        <span class="nav__logo-mark">LA</span>
+        <span class="nav__logo-text">Luthfiano&nbsp;Alzaky</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about"><span class="en-text">About</span><span class="id-text">Tentang</span></a>
+        <a href="#skills"><span class="en-text">Skills</span><span class="id-text">Keahlian</span></a>
+        <a href="#experience"><span class="en-text">Experience</span><span class="id-text">Pengalaman</span></a>
+        <a href="#projects"><span class="en-text">Projects</span><span class="id-text">Proyek</span></a>
+        <a href="#certificates"><span class="en-text">Certificates</span><span class="id-text">Sertifikat</span></a>
+        <a href="#contact"><span class="en-text">Contact</span><span class="id-text">Kontak</span></a>
+      </nav>
+
+      <div class="nav__actions">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-toggle__btn is-active" data-lang="en">EN</button>
+          <button type="button" class="lang-toggle__btn" data-lang="id">ID</button>
+        </div>
+        <button class="nav__burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero section" id="home">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            <span class="en-text">Available for internships &amp; entry-level roles</span>
+            <span class="id-text">Terbuka untuk magang &amp; posisi entry-level</span>
+          </p>
+          <h1 class="hero__name">Luthfiano Alzaky</h1>
+          <h2 class="hero__role">
+            <span class="en-text">Statistics &amp; Data Science Student · Aspiring Data Analyst / Data Scientist</span>
+            <span class="id-text">Mahasiswa Statistika &amp; Sains Data · Calon Data Analyst / Data Scientist</span>
+          </h2>
+          <p class="hero__tagline">
+            <span class="en-text">I turn raw data into clear, actionable insights — from credit risk scoring and sales forecasting to market research and interactive dashboards.</span>
+            <span class="id-text">Saya mengubah data mentah menjadi insight yang jelas dan dapat ditindaklanjuti — mulai dari credit scoring, peramalan penjualan, riset pasar, hingga dashboard interaktif.</span>
+          </p>
+
+          <div class="hero__meta">
+            <span class="hero__meta-item">📍 Bogor, Indonesia</span>
+            <span class="hero__meta-item">🎓 IPB University</span>
+          </div>
+
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--primary">
+              <span class="en-text">Get in touch</span><span class="id-text">Hubungi saya</span>
+            </a>
+            <a href="#projects" class="btn btn--ghost">
+              <span class="en-text">View projects</span><span class="id-text">Lihat proyek</span>
+            </a>
+            <a href="assets/Luthfiano_Alzaky_CV.pdf" class="btn btn--ghost" download>
+              <span class="en-text">Download CV</span><span class="id-text">Unduh CV</span>
+            </a>
+          </div>
+
+          <div class="hero__socials">
+            <a href="https://www.linkedin.com/in/luthfiano-alzaky-3a2197248/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a href="https://github.com/luthfiano-alzaky" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+            <a href="mailto:alzakyluthfiano@apps.ipb.ac.id" aria-label="Email">@</a>
+          </div>
+        </div>
+
+        <div class="hero__photo reveal">
+          <div class="hero__photo-blob" aria-hidden="true"></div>
+          <img src="assets/profile.jpg" alt="Portrait of Luthfiano Alzaky" width="900" height="1350" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__eyebrow"><span class="en-text">01 — About</span><span class="id-text">01 — Tentang</span></span>
+          <h2 class="section__title"><span class="en-text">A bit about me</span><span class="id-text">Sedikit tentang saya</span></h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p class="en-text">I'm an enthusiastic Statistics and Data Science student at IPB University with a strong passion for analyzing data and uncovering valuable insights. Throughout my academic journey I've built in-depth knowledge of statistical concepts and proficiency with tools such as Python, R, SQL, and Power BI.</p>
+            <p class="en-text">I've complemented my studies with hands-on experience as a <strong>Credit Risk Modelling Intern at KB Bank</strong> and a <strong>Market Research Analyst Intern at Rapido Research</strong>, contributing to impactful projects in credit risk scoring, sales forecasting, and market research. I'm proactive, analytical, and communicate well — always eager to learn and ready to embrace new challenges.</p>
+
+            <p class="id-text">Saya mahasiswa Statistika dan Sains Data di IPB University yang antusias menganalisis data dan menggali insight yang bernilai. Sepanjang perjalanan akademik, saya membangun pemahaman mendalam tentang konsep statistik serta kemahiran dengan tools seperti Python, R, SQL, dan Power BI.</p>
+            <p class="id-text">Saya melengkapi studi dengan pengalaman langsung sebagai <strong>Credit Risk Modelling Intern di KB Bank</strong> dan <strong>Market Research Analyst Intern di Rapido Research</strong>, berkontribusi pada proyek credit scoring, peramalan penjualan, dan riset pasar. Saya proaktif, analitis, dan komunikatif — selalu ingin belajar dan siap menghadapi tantangan baru.</p>
+
+            <div class="about__facts">
+              <div class="fact">
+                <span class="fact__label en-text">University</span><span class="fact__label id-text">Universitas</span>
+                <span class="fact__value">IPB University</span>
+              </div>
+              <div class="fact">
+                <span class="fact__label en-text">Program</span><span class="fact__label id-text">Program</span>
+                <span class="fact__value"><span class="en-text">Statistics &amp; Data Science</span><span class="id-text">Statistika &amp; Sains Data</span></span>
+              </div>
+              <div class="fact">
+                <span class="fact__label en-text">Languages</span><span class="fact__label id-text">Bahasa</span>
+                <span class="fact__value"><span class="en-text">Indonesian (Native), English (Advanced)</span><span class="id-text">Indonesia (Native), Inggris (Mahir)</span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__stats reveal">
+            <div class="stat">
+              <span class="stat__num">3.43</span>
+              <span class="stat__cap en-text">Current GPA</span><span class="stat__cap id-text">IPK saat ini</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">2</span>
+              <span class="stat__cap en-text">Internships</span><span class="stat__cap id-text">Magang</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">7+</span>
+              <span class="stat__cap en-text">Data projects</span><span class="stat__cap id-text">Proyek data</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">9</span>
+              <span class="stat__cap en-text">Certificates</span><span class="stat__cap id-text">Sertifikat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--soft" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__eyebrow"><span class="en-text">02 — Skills</span><span class="id-text">02 — Keahlian</span></span>
+          <h2 class="section__title"><span class="en-text">Tools &amp; technologies</span><span class="id-text">Tools &amp; teknologi</span></h2>
+        </div>
+
+        <div class="skills__grid">
+          <div class="skill-card reveal">
+            <h3><span class="en-text">Programming &amp; Databases</span><span class="id-text">Pemrograman &amp; Database</span></h3>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">R</span><span class="chip">SQL</span>
+              <span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">SAS</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span class="en-text">Statistics &amp; Analytics</span><span class="id-text">Statistika &amp; Analitik</span></h3>
+            <div class="chips">
+              <span class="chip">SPSS</span><span class="chip">JASP</span><span class="chip">Minitab</span>
+              <span class="chip">Excel</span><span class="chip">Machine Learning</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span class="en-text">Visualization &amp; BI</span><span class="id-text">Visualisasi &amp; BI</span></h3>
+            <div class="chips">
+              <span class="chip">Power BI</span><span class="chip">Tableau</span><span class="chip">Looker Studio</span>
+              <span class="chip">Streamlit</span><span class="chip">QGIS</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span class="en-text">Soft Skills</span><span class="id-text">Soft Skills</span></h3>
+            <div class="chips">
+              <span class="chip"><span class="en-text">Project Leadership</span><span class="id-text">Kepemimpinan Proyek</span></span>
+              <span class="chip"><span class="en-text">Problem Solving</span><span class="id-text">Pemecahan Masalah</span></span>
+              <span class="chip"><span class="en-text">Adaptability</span><span class="id-text">Adaptasi</span></span>
+              <span class="chip"><span class="en-text">Priority Management</span><span class="id-text">Manajemen Prioritas</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__eyebrow"><span class="en-text">03 — Experience</span><span class="id-text">03 — Pengalaman</span></span>
+          <h2 class="section__title"><span class="en-text">Where I've worked</span><span class="id-text">Pengalaman kerja</span></h2>
+        </div>
+
+        <div class="timeline">
+          <article class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h3>Credit Risk Modelling Intern</h3>
+                <span class="tl-date">Sep 2025 – Nov 2025</span>
+              </div>
+              <p class="tl-org">KB Bank</p>
+              <ul>
+                <li>
+                  <strong><span class="en-text">Credit Scoring Model.</span><span class="id-text">Model Credit Scoring.</span></strong>
+                  <span class="en-text"> Performed data preparation and contributed to building a credit scoring model to support data-driven lending and credit risk assessment.</span>
+                  <span class="id-text"> Melakukan persiapan data dan berkontribusi membangun model credit scoring untuk mendukung pemberian kredit dan penilaian risiko berbasis data.</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h3>Market Research Analyst Intern</h3>
+                <span class="tl-date">Sep 2025 – Nov 2025</span>
+              </div>
+              <p class="tl-org">Rapido Research</p>
+              <ul>
+                <li>
+                  <strong><span class="en-text">Predictive Analytics &amp; CRM.</span><span class="id-text">Predictive Analytics &amp; CRM.</span></strong>
+                  <span class="en-text"> Built sales forecasting models and customer segmentation based on transaction value and behavior to support strategic decisions and inventory planning.</span>
+                  <span class="id-text"> Membangun model peramalan penjualan dan segmentasi pelanggan berdasarkan nilai serta perilaku transaksi untuk mendukung keputusan strategis dan perencanaan inventori.</span>
+                </li>
+                <li>
+                  <strong><span class="en-text">Market Intelligence &amp; Strategy.</span><span class="id-text">Market Intelligence &amp; Strategy.</span></strong>
+                  <span class="en-text"> Conducted end-to-end quantitative research (Market Sizing, Market Share, Brand Health) and qualitative analysis (FGD quality control) across Agriculture, FMCG, and Retail.</span>
+                  <span class="id-text"> Melakukan riset kuantitatif menyeluruh (Market Sizing, Market Share, Brand Health) dan analisis kualitatif (kontrol kualitas FGD) di sektor Agrikultur, FMCG, dan Retail.</span>
+                </li>
+                <li>
+                  <strong><span class="en-text">Data Scraping &amp; GIS.</span><span class="id-text">Data Scraping &amp; GIS.</span></strong>
+                  <span class="en-text"> Used G-Business Extractor and Python to scrape spatial and product-specification data, then processed and mapped it with QGIS.</span>
+                  <span class="id-text"> Menggunakan G-Business Extractor dan Python untuk scraping data spasial serta spesifikasi produk, lalu mengolah dan memetakannya dengan QGIS.</span>
+                </li>
+                <li>
+                  <strong><span class="en-text">Consumer Insight Analysis.</span><span class="id-text">Consumer Insight Analysis.</span></strong>
+                  <span class="en-text"> Analyzed key drivers, triggers, and barriers in consumer behavior to recommend product development and customer-satisfaction improvements.</span>
+                  <span class="id-text"> Menganalisis key drivers, triggers, dan barriers dalam perilaku konsumen untuk merekomendasikan pengembangan produk dan peningkatan kepuasan pelanggan.</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section--soft" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__eyebrow"><span class="en-text">04 — Projects</span><span class="id-text">04 — Proyek</span></span>
+          <h2 class="section__title"><span class="en-text">Selected data projects</span><span class="id-text">Proyek data pilihan</span></h2>
+        </div>
+
+        <div class="projects__grid">
+          <!-- 1 -->
+          <article class="project-card reveal">
+            <div class="project-card__icon">📈</div>
+            <h3><span class="en-text">Marketing Mix Modeling — Skincare Sales Forecast</span><span class="id-text">Marketing Mix Modeling — Peramalan Penjualan Skincare</span></h3>
+            <p>
+              <span class="en-text">End-to-end forecasting with XGBoost that tracks daily sales volatility and captures sudden demand spikes with high precision. Found ads had little impact on sales; results delivered via a clear Streamlit dashboard.</span>
+              <span class="id-text">Peramalan menyeluruh dengan XGBoost yang melacak volatilitas penjualan harian dan menangkap lonjakan permintaan secara presisi. Menemukan iklan berdampak kecil pada penjualan; hasil disajikan lewat dashboard Streamlit.</span>
+            </p>
+            <div class="chips chips--sm">
+              <span class="chip">XGBoost</span><span class="chip">Forecasting</span><span class="chip">Python</span><span class="chip">Streamlit</span>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="project-card reveal">
+            <div class="project-card__icon">🛒</div>
+            <h3>E-Commerce Revenue &amp; Risk Analysis</h3>
+            <p>
+              <span class="en-text">Analyzed year-over-year sales differences (2021 vs 2022) across categories to detect market shifts, identify revenue drivers, flag inventory risk, and shape retention and sales-timing strategies.</span>
+              <span class="id-text">Menganalisis perbedaan penjualan antar tahun (2021 vs 2022) lintas kategori untuk mendeteksi pergeseran pasar, mengidentifikasi revenue driver, menandai risiko inventori, serta merumuskan strategi retensi dan waktu penjualan.</span>
+            </p>
+            <div class="chips chips--sm">
+              <span class="chip">Python</span><span class="chip">EDA</span><span class="chip">Business Analytics</span>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="project-card reveal">
+            <div class="project-card__icon">🗄️</div>
+            <h3>E-Commerce Sales Strategy Analysis</h3>
+            <p>
+              <span class="en-text">Deep-dive on large-scale transaction, customer, and product data with PostgreSQL &amp; MySQL. Compared channels (App Store, Play Store, Website) and visualized monthly revenue trends to guide strategy.</span>
+              <span class="id-text">Analisis mendalam atas data transaksi, pelanggan, dan produk skala besar dengan PostgreSQL &amp; MySQL. Membandingkan kanal (App Store, Play Store, Website) dan memvisualisasikan tren pendapatan bulanan untuk strategi.</span>
+            </p>
+            <div class="chips chips--sm">
+              <span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">MySQL</span>
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="project-card reveal">
+            <div class="project-card__icon">📊</div>
+            <h3>Trend Campaign Dashboard</h3>
+            <p>
+              <span class="en-text">Interactive Looker Studio BI dashboard turning raw transactions into visual insight — real-time KPIs like total revenue, net profit, and YoY growth, with breakdowns by category and payment method.</span>
+              <span class="id-text">Dashboard BI interaktif Looker Studio yang mengubah transaksi mentah menjadi insight visual — KPI real-time seperti total pendapatan, laba bersih, dan pertumbuhan YoY, dengan rincian per kategori dan metode pembayaran.</span>
+            </p>
+            <div class="chips chips--sm">
+              <span class="chip">Looker Studio</span><span class="chip">BI</span><span class="chip">KPI</span>
+            </div>
+          </article>
+
+          <!-- 5 -->
+          <article class="project-card reveal">
+            <div class="project-card__icon">🗺️</div>
+            <h3><span class="en-text">HDI Clustering with Dimensionality Reduction</span><span class="id-text">Clustering IPM dengan Reduksi Dimensi</span></h3>
+            <p>
+              <span class="en-text">Grouped Indonesian provinces by Human Development Index using K-Means into three clusters, with PCA and t-SNE for clearer separation — surfacing key drivers for regional development policy.</span>
+              <span class="id-text">Mengelompokkan provinsi Indonesia berdasarkan Indeks Pembangunan Manusia dengan K-Means menjadi tiga klaster, memakai PCA dan t-SNE untuk pemisahan lebih jelas — mengungkap faktor kunci bagi kebijakan pembangunan daerah.</span>
+            </p>
+            <div class="chips chips--sm">
+              <span class="chip">K-Means</span><span class="chip">PCA</span><span class="chip">t-SNE</span><span class="chip">Python</span>
+            </div>
+          </article>
+
+          <!-- 6 -->
+          <article class="project-card reveal">
+            <div class="project-card__icon">💹</div>
+            <h3><span class="en-text">Stock Portfolio Optimization</span><span class="id-text">Optimasi Portofolio Saham</span></h3>
+            <p>
+              <span class="en-text">Built a minimal-risk stock portfolio using SLSQP and Trust Region methods to find optimal asset weights — recommending a BBCA (40%) and PGAS (25%) allocation that balances concentration and diversification.</span>
+              <span class="id-text">Membangun portofolio saham berisiko minimal dengan metode SLSQP dan Trust Region untuk bobot aset optimal — merekomendasikan alokasi BBCA (40%) dan PGAS (25%) yang menyeimbangkan konsentrasi dan diversifikasi.</span>
+            </p>
+            <div class="chips chips--sm">
+              <span class="chip">SLSQP</span><span class="chip">Optimization</span><span class="chip">Finance</span><span class="chip">Python</span>
+            </div>
+          </article>
+
+          <!-- 7 -->
+          <article class="project-card reveal">
+            <div class="project-card__icon">🏀</div>
+            <h3>NBA Teams Clustering Analysis</h3>
+            <p>
+              <span class="en-text">Led a team scraping NBA 2023/2024 regular-season data and used K-Means to group all 30 teams into 3 performance clusters by offensive and defensive metrics, visualized in R Studio.</span>
+              <span class="id-text">Memimpin tim melakukan scraping data NBA musim reguler 2023/2024 dan memakai K-Means untuk mengelompokkan 30 tim ke dalam 3 klaster performa berdasarkan metrik ofensif dan defensif, divisualisasikan di R Studio.</span>
+            </p>
+            <div class="chips chips--sm">
+              <span class="chip">K-Means</span><span class="chip">R</span><span class="chip">Web Scraping</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects__more reveal">
+          <a href="https://github.com/luthfiano-alzaky" target="_blank" rel="noopener" class="btn btn--ghost">
+            <span class="en-text">Explore more on GitHub →</span><span class="id-text">Lihat selengkapnya di GitHub →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION & ORGANIZATIONS ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="edu__grid">
+          <div class="reveal">
+            <div class="section__head">
+              <span class="section__eyebrow"><span class="en-text">05 — Education</span><span class="id-text">05 — Pendidikan</span></span>
+              <h2 class="section__title"><span class="en-text">Education</span><span class="id-text">Pendidikan</span></h2>
+            </div>
+            <div class="edu-card">
+              <div class="tl-head">
+                <h3>IPB University</h3>
+                <span class="tl-date">Jul 2022 – <span class="en-text">Present</span><span class="id-text">Sekarang</span></span>
+              </div>
+              <p class="tl-org"><span class="en-text">Bachelor of Statistics &amp; Data Science</span><span class="id-text">Sarjana Statistika &amp; Sains Data</span></p>
+              <p class="edu-gpa"><span class="en-text">Current GPA</span><span class="id-text">IPK saat ini</span>: <strong>3.43</strong></p>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div class="section__head">
+              <span class="section__eyebrow"><span class="en-text">06 — Organizations</span><span class="id-text">06 — Organisasi</span></span>
+              <h2 class="section__title"><span class="en-text">Leadership &amp; activities</span><span class="id-text">Kepemimpinan &amp; aktivitas</span></h2>
+            </div>
+            <ul class="org-list">
+              <li>
+                <div class="org-list__head">
+                  <strong>Gamma Sigma Beta</strong><span class="tl-date">Dec 2023 – Dec 2024</span>
+                </div>
+                <span class="en-text">Staff, Sport &amp; Art Management Division</span><span class="id-text">Staf Divisi Sport &amp; Art Management</span>
+              </li>
+              <li>
+                <div class="org-list__head">
+                  <strong>GSB Olympics</strong><span class="tl-date">Mar 2024 – Jun 2024</span>
+                </div>
+                <span class="en-text">Project Leader</span><span class="id-text">Ketua Proyek</span>
+              </li>
+              <li>
+                <div class="org-list__head">
+                  <strong>Indonesia E-Sports Championship</strong><span class="tl-date">Mar 2023 – Sep 2023</span>
+                </div>
+                <span class="en-text">Head of Public Relations Division</span><span class="id-text">Kepala Divisi Hubungan Masyarakat</span>
+              </li>
+              <li>
+                <div class="org-list__head">
+                  <strong>IPB E-Sports</strong><span class="tl-date">Aug 2022 – Dec 2023</span>
+                </div>
+                <span class="en-text">Staff, Event Organizer Division</span><span class="id-text">Staf Divisi Event Organizer</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATES ============ -->
+    <section class="section section--soft" id="certificates">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__eyebrow"><span class="en-text">07 — Certificates</span><span class="id-text">07 — Sertifikat</span></span>
+          <h2 class="section__title"><span class="en-text">Certifications</span><span class="id-text">Sertifikasi</span></h2>
+        </div>
+
+        <div class="cert__grid">
+          <div class="cert-card reveal">
+            <h4>Data Analyst Intensive Bootcamp</h4>
+            <p class="cert-issuer">MySkill</p><span class="cert-date">Nov 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Belajar Dasar AI</h4>
+            <p class="cert-issuer">Dicoding Indonesia</p><span class="cert-date">Nov 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Huawei Certified ICT Associate — AI</h4>
+            <p class="cert-issuer">Digital Talent Scholarship</p><span class="cert-date">Nov 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Belajar Dasar Data Science</h4>
+            <p class="cert-issuer">Dicoding Indonesia</p><span class="cert-date">Oct 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Dasar-Dasar SQL</h4>
+            <p class="cert-issuer">Dicoding Indonesia</p><span class="cert-date">Oct 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Dasar-Dasar Visualisasi Data</h4>
+            <p class="cert-issuer">Dicoding Indonesia</p><span class="cert-date">Oct 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Pemrograman Prosedural dengan Python</h4>
+            <p class="cert-issuer">Dicoding Indonesia</p><span class="cert-date">Oct 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Dasar Penggunaan Generative AI</h4>
+            <p class="cert-issuer">Dicoding Indonesia</p><span class="cert-date">Oct 2025</span>
+          </div>
+          <div class="cert-card reveal">
+            <h4>Fundamental Data Science</h4>
+            <p class="cert-issuer">Digital Talent Scholarship</p><span class="cert-date">Jul 2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="section__head reveal">
+            <span class="section__eyebrow"><span class="en-text">08 — Contact</span><span class="id-text">08 — Kontak</span></span>
+            <h2 class="section__title"><span class="en-text">Let's work together</span><span class="id-text">Mari bekerja sama</span></h2>
+            <p class="contact__lead reveal">
+              <span class="en-text">Open to internships, entry-level data roles, and collaboration. The fastest way to reach me is by email.</span>
+              <span class="id-text">Terbuka untuk magang, posisi data entry-level, dan kolaborasi. Cara tercepat menghubungi saya adalah lewat email.</span>
+            </p>
+          </div>
+
+          <div class="contact__grid reveal">
+            <a class="contact-card" href="mailto:alzakyluthfiano@apps.ipb.ac.id">
+              <span class="contact-card__icon">✉️</span>
+              <span class="contact-card__label">Email</span>
+              <span class="contact-card__val">alzakyluthfiano@apps.ipb.ac.id</span>
+            </a>
+            <a class="contact-card" href="tel:+6285271315647">
+              <span class="contact-card__icon">📱</span>
+              <span class="contact-card__label"><span class="en-text">Phone</span><span class="id-text">Telepon</span></span>
+              <span class="contact-card__val">+62 852-7131-5647</span>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/luthfiano-alzaky-3a2197248/" target="_blank" rel="noopener">
+              <span class="contact-card__icon">in</span>
+              <span class="contact-card__label">LinkedIn</span>
+              <span class="contact-card__val">luthfiano-alzaky</span>
+            </a>
+            <a class="contact-card" href="https://github.com/luthfiano-alzaky" target="_blank" rel="noopener">
+              <span class="contact-card__icon">GH</span>
+              <span class="contact-card__label">GitHub</span>
+              <span class="contact-card__val">luthfiano-alzaky</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Luthfiano Alzaky</span>
+      <span class="footer__made">
+        <span class="en-text">Built with HTML, CSS &amp; JavaScript</span><span class="id-text">Dibuat dengan HTML, CSS &amp; JavaScript</span>
+      </span>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
